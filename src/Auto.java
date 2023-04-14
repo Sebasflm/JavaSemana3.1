@@ -99,6 +99,21 @@ public class Auto {
     }
 
     public void setNumRuedas(int numRuedas) {
+
         this.numRuedas = numRuedas;
+    }
+
+
+    public void imprimirAttr(){
+        System.out.println("La placa del auto es: " +placa);
+        System.out.println("El modelo del auto es : "+modelo);
+        System.out.println("El año del auto es: "+anio);
+        System.out.println("La marca del auto es: "+modelo);
+        System.out.println("La serie del motor es: "+motor.getSerie());
+        System.out.println("El cilindraje del motor es: "+motor.getCilindraje());
+        System.out.println("El tipo de combustible del motor es: "+motor.getTipoCombustible());
+        System.out.println("El nombre del dueño es: " +duenio.getNombre());
+        System.out.println("La cedula del dueño es: " +duenio.getCedula());
+        System.out.println("El numero de ruedas del auto es: " +numRuedas);
     }
 }

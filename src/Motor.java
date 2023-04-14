@@ -29,14 +29,17 @@ public class Motor {
     }
 
     public String getSerie() {
+
         return serie;
     }
 
     public void setSerie(String serie) {
+
         this.serie = serie;
     }
 
     public double getCilindraje() {
+
         return cilindraje;
     }
 
@@ -45,10 +48,12 @@ public class Motor {
     }
 
     public String getTipoCombustible() {
+
         return tipoCombustible;
     }
 
     public void setTipoCombustible(String tipoCombustible) {
+
         this.tipoCombustible = tipoCombustible;
     }
 }
